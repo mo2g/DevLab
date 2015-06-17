@@ -1,0 +1,82 @@
+<html>
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <title>录制页面</title>
+</head>
+<body>
+    <video autoplay id="sourcevid" style="width:640px;height:480px"></video>
+    <canvas id="output" style="display:none"></canvas>
+    <div style="text-align: center;">
+        <p>当前为录制页面</p>
+        <p>客户端播放页面地址：<a href="./index.html" target="_blank">点击这里</a></p>
+        <p>提示：录制需要接入摄像头。</p>
+        <p>如果没有摄像头，可以按照我给出的教程把手机模拟成摄像头</p>
+    </div>
+
+    <h1>下载安装软件</h1>
+    <p>1）下载压缩包<a href="http://static2.mo2g.com/DroidcamX1.4.2汉化版.zip" target="_blank">DroidcamX1.4.2汉化版</a></p>
+    <p>2）解压得到5个文件</p>
+    <p><img src="http://static2.mo2g.com/test/live/1.jpg"></p>
+    <p>3）在手机端安装 HA-20110427-DroidCamX.Wireless.Webcam.Pro.1.4.2._GCA.apk</p>
+    <p>4）在电脑端安装 DroidCam-3.2.exe</p>
+    <p>5）解压 电脑端DroidCamApp.exe汉化覆盖.zip，把压缩包中的 DroidCamApp.exe 覆盖到安装路径，完成汉化</p>
+
+    <h1>使用USB数据线将电脑连接上手机摄像头</h1>
+    <p>usb数据线将电脑与手机连接，速度是最快的，而且可以一边使用一边充电，不用担心手机电量被短时间用完。</p>
+    <p>1）手机初次连接电脑，需要安装手机驱动，建议大家使用豌豆荚、电脑管家等软件自动检测安装</p>
+    <p>2）建立一个bat文件，内容为adb forward tcp:4747 tcp:4747，如下图所示：</p>
+    <p><img src="http://static2.mo2g.com/test/live/3.jpg"></p>
+    <p>3）双击运行这个bat文件</p>
+    <p>4）运行DroidCam客户端，选择连接方式为“ADB（由USB）”，点击Conect。</p>
+    <p><img src="http://static2.mo2g.com/test/live/6.jpg"></p>
+    <p>如果不运行bat或者设置的端口与bat内的不一致，会有错误提示，如下图。</p>
+    <p><img src="http://static2.mo2g.com/test/live/4.jpg"></p>
+
+    <h1>通过Wifi无线网络将电脑连接上手机摄像头</h1>
+    <p>如果您手机与电脑都支持无线网络，并且有无线网络的时候，那么可以使用Wifi无线，将电脑与手机摄像头连接使用。</p>
+    <p>1）打开手机WiFi并连接上无线路由，然后在手机上启动DroidCamX，看到如下画面。显示IP：192.168.1.102 端口：4747，如下图：</p>
+    <p><img src="http://static2.mo2g.com/test/live/5.jpg"></p>
+    <p>2）启动PC端软件，连接方式选择WiFi/LAN，手机IP和DroidCam端口填上在手机端界面看到的即可，如下图：</p>
+    <p><img src="http://static2.mo2g.com/test/live/2.jpg"></p>
+    <p>3）点击Conect完成操作</p>
+    <p><img src="http://static2.mo2g.com/test/live/6.jpg"></p>
+
+    <script type="text/javascript" charset="utf-8">
+
+        if( document.createElement('canvas').getContext ) {
+            var socket = new WebSocket("ws://"+document.domain+":8080"),
+            back = document.getElementById('output'),
+            backcontext = back.getContext('2d'),
+            video = document.getElementsByTagName('video')[0];
+
+            socket.onopen = function() {
+                draw();
+            }
+            
+            var success = function(stream) {
+                video.src = window.URL.createObjectURL(stream);
+            }
+
+            var draw = function() {
+                try {
+                    backcontext.drawImage(video,0,0, back.width, back.height);
+                } catch(e) {
+                    if (e.name == "NS_ERROR_NOT_AVAILABLE") {
+                        return setTimeout(draw, 100);
+                    } else {
+                        throw e;
+                    }
+                }
+                socket.send(back.toDataURL("image/jpeg", 0.5));
+                setTimeout(draw, 100);
+            }
+
+            navigator.getUserMedia = navigator.getUserMedia || navigator.webkitGetUserMedia ||
+                navigator.mozGetUserMedia || navigator.msGetUserMedia;
+            navigator.getUserMedia({video:true, audio:false}, success, console.log);
+        } else {
+            alert('你的浏览器不支持html5，请先更换浏览器。。');
+        }
+    </script>
+</body>
+</html>
