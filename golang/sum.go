@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 	"runtime"
+	"sync"
 	"time"
 )
 
@@ -33,7 +34,8 @@ func _sum(start int, end int) int {
 	return sum
 }
 
-func chan_sum(start int, end int, totle chan int) {
+func chan_sum(start int, end int, wg *sync.WaitGroup, totle chan<- int) {
+	defer wg.Done()
 	sum := 0
 	for i := start; i < end; i++ {
 		if i%2 == 0 || i%3 == 0 || i%5 == 0 || i%6 == 0 {
@@ -47,27 +49,19 @@ func chan_sum(start int, end int, totle chan int) {
 func go_sum(num int, max int) int {
 	sum := 0
 	y := max / num
-	start := 0
-	end := 0
-
-	if max%num != 0 {
-		num += 1
-	}
 	totle := make(chan int, num)
+	var wg sync.WaitGroup
 
 	for i := 0; i < num; i++ {
-		start = y * i
-		end = y * (i + 1)
-
-		if start == 0 {
-			start = 1
-		}
-
-		if end >= max {
+		start := y * i
+		end := start + y
+		if end > max {
 			end = max
 		}
-		go chan_sum(start, end, totle)
+		wg.Add(1)
+		go chan_sum(start, end, &wg, totle)
 	}
+	wg.Wait()
 	for i := 0; i < num; i++ {
 		sum += <-totle
 	}
