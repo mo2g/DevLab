@@ -70,3 +70,30 @@ export const truncateTextAroundKeyword = (text, keyword, maxLength = 10) => {
 export const hasKeyword = (text, keyword) => {
   return text.toLowerCase().indexOf(keyword.toLowerCase()) > -1;
 };
+
+
+/*
+*  Example
+*
+let a = '/v1/user?a=AAA&id=180028';
+const notAllowedQuery = ['id'];
+a = clearNotAllowedQuery(a, notAllowedQuery);
+console.log(a);
+*
+* output: /v1/user?a=AAA
+* */
+export const clearNotAllowedQuery = (url, notAllowedQuery) => {
+  const urlObject = new URL('http://example.com' + url); // Use placeholder base URL
+  const params = new URLSearchParams(urlObject.search);
+
+  // Remove not allowe query parameters
+  notAllowedQuery.forEach(param => {
+    params.delete(param);
+  });
+
+  // Update the query parameters of the URL object
+  urlObject.search = params.toString();
+
+  // Returns the updated path and query string
+  return urlObject.pathname + urlObject.search;
+};
