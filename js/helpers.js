@@ -1,9 +1,15 @@
 
-
+// Example：
+// const escapedString = escapeRegExp('hello-world');
+// console.log(escapedString); // output: hello\-world
 export const escapeRegExp = function (string) {
   return string.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
 };
 
+// Example：
+// const arr = [];
+// pushIfNonEmpty(arr, 'a', '', 'b', '   ', 'c');
+// console.log(arr); // output: ['a', 'b', 'c']
 export const pushIfNonEmpty = (arr, ...values) => {
   values.forEach((value) => {
     if (value && value.trim() !== '') {
@@ -12,7 +18,11 @@ export const pushIfNonEmpty = (arr, ...values) => {
   });
 };
 
-// 高亮关键字
+// Example：
+// const highlighted = highlightedText('This is a test', 'is');
+// console.log(highlighted); // output: ['Th', <b className="search-highlighted">is</b>, ' is a test']
+
+// Highlight keyword
 export const highlightedText = (text, keyword) => {
   if (keyword == '' || typeof keyword !== 'string') {
     return text;
@@ -34,39 +44,38 @@ export const highlightedText = (text, keyword) => {
   }
 };
 
-// 从文本中截取关键字前后N个字符
-export const truncateTextAroundKeyword = (text, keyword, maxLength = 10) => {
-  if (text == '' || !!!text) {
-    return '';
-  }
+// Example：
+// const truncated = truncateTextAroundKeyword('This is a test,one two three four five six', 'one', 2);
+// console.log(truncated); // output: '...t,one t...'
 
-  if (keyword == '' || typeof keyword !== 'string') {
-    const len = maxLength * 2;
-    const hasMore = len < text.length;
-    return text.slice(0, len) + (hasMore ? '...' : '');
+// Extract N characters before and after the keyword from the text
+export const truncateTextAroundKeyword = (text, keyword, maxLength = 10) => {
+  if (!text || !keyword) {
+    return '';
   }
 
   const keywordIndex = text.toLowerCase().indexOf(keyword.toLowerCase());
   if (keywordIndex === -1) {
-    // 关键词不存在于文本中
-    return text;
+    // Keyword does not exist in the text
+    return text.substring(0, maxLength) + (text.length > maxLength ? '...' : '');
   }
 
   const start = Math.max(0, keywordIndex - maxLength);
   const end = Math.min(text.length, keywordIndex + keyword.length + maxLength);
 
-  let truncatedText = text.slice(start, end);
+  let truncatedText = text.substring(start, end);
 
-  // 添加省略号
-  if (start > 0) {
-    truncatedText = '...' + truncatedText;
+  // Adding an ellipsis
+  if (start > 0 || end < text.length) {
+    truncatedText = (start > 0 ? '...' : '') + truncatedText + (end < text.length ? '...' : '');
   }
-  if (end < text.length) {
-    truncatedText += '...';
-  }
+
   return truncatedText;
 }
 
+// Example：
+// const has = hasKeyword('This is a test', 'test');
+// console.log(has); // output: true
 export const hasKeyword = (text, keyword) => {
   return text.toLowerCase().indexOf(keyword.toLowerCase()) > -1;
 };
