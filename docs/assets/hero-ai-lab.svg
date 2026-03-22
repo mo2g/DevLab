@@ -1,0 +1,36 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">DevLab AI Lab</title>
+  <desc id="desc">A simple overview graphic for the DevLab AI lab covering workflow, analytics, and security.</desc>
+  <rect width="1280" height="640" rx="32" fill="#0B1220"/>
+  <rect x="24" y="24" width="1232" height="592" rx="24" fill="url(#panel)"/>
+  <circle cx="1110" cy="118" r="132" fill="#16314E" fill-opacity="0.45"/>
+  <circle cx="172" cy="542" r="164" fill="#17342B" fill-opacity="0.35"/>
+  <text x="92" y="132" fill="#F6F7FB" font-family="Arial, Helvetica, sans-serif" font-size="56" font-weight="700">DevLab</text>
+  <text x="92" y="176" fill="#9FB3C8" font-family="Arial, Helvetica, sans-serif" font-size="24">AI open-source lab by mo2g</text>
+  <text x="92" y="234" fill="#DDE7F3" font-family="Arial, Helvetica, sans-serif" font-size="22">AI coding workflow, token analytics, and agent security.</text>
+  <line x1="180" y1="382" x2="1088" y2="382" stroke="#35506D" stroke-width="4"/>
+  <circle cx="250" cy="382" r="10" fill="#7ED0A6"/>
+  <circle cx="640" cy="382" r="10" fill="#7AA2FF"/>
+  <circle cx="1030" cy="382" r="10" fill="#F0A35E"/>
+  <rect x="118" y="296" width="264" height="164" rx="20" fill="#12263B" stroke="#284A68"/>
+  <rect x="508" y="296" width="264" height="164" rx="20" fill="#12263B" stroke="#284A68"/>
+  <rect x="898" y="296" width="264" height="164" rx="20" fill="#12263B" stroke="#284A68"/>
+  <text x="148" y="348" fill="#F6F7FB" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Workflow</text>
+  <text x="148" y="388" fill="#BFD1E2" font-family="Arial, Helvetica, sans-serif" font-size="18">Codex repo contracts</text>
+  <text x="148" y="416" fill="#BFD1E2" font-family="Arial, Helvetica, sans-serif" font-size="18">Bootstrap and verification</text>
+  <text x="148" y="444" fill="#BFD1E2" font-family="Arial, Helvetica, sans-serif" font-size="18">Practical collaboration</text>
+  <text x="538" y="348" fill="#F6F7FB" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Analytics</text>
+  <text x="538" y="388" fill="#BFD1E2" font-family="Arial, Helvetica, sans-serif" font-size="18">Local-first usage visibility</text>
+  <text x="538" y="416" fill="#BFD1E2" font-family="Arial, Helvetica, sans-serif" font-size="18">Normalization and dashboards</text>
+  <text x="538" y="444" fill="#BFD1E2" font-family="Arial, Helvetica, sans-serif" font-size="18">Export and share paths</text>
+  <text x="928" y="348" fill="#F6F7FB" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">Security</text>
+  <text x="928" y="388" fill="#BFD1E2" font-family="Arial, Helvetica, sans-serif" font-size="18">Agent exposure discovery</text>
+  <text x="928" y="416" fill="#BFD1E2" font-family="Arial, Helvetica, sans-serif" font-size="18">Fingerprint and verification</text>
+  <text x="928" y="444" fill="#BFD1E2" font-family="Arial, Helvetica, sans-serif" font-size="18">Reporting and follow-up</text>
+  <defs>
+    <linearGradient id="panel" x1="56" y1="60" x2="1212" y2="592" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0E172A"/>
+      <stop offset="1" stop-color="#101B2F"/>
+    </linearGradient>
+  </defs>
+</svg>
