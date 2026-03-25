@@ -33,6 +33,7 @@ I use this repository as a documentation-first front page for current AI project
 ## Cookbook
 
 - [Cookbook Index](./docs/cookbook/README.md)
+- [How I Think About Codex Workflow Automation](./docs/cookbook/codex-workflow-automation-tradeoffs.md)
 - [Codex Composer development notes](./docs/cookbook/codex-composer-workflow.md)
 - [Token Insight local-first analytics notes](./docs/cookbook/token-insight-local-first-analytics.md)
 - [AgentScan engineering notes](./docs/cookbook/agentscan-agent-security-notes.md)

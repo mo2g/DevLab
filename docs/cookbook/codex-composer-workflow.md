@@ -1,4 +1,4 @@
-# Codex Composer 开发经验
+# Codex Composer Development Notes
 
 [中文](./codex-composer-workflow.zh-CN.md)
 

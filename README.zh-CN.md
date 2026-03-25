@@ -84,6 +84,7 @@ DevLab 是我对外展示 AI 开源工作的入口仓库，围绕三条主线组
 我希望 DevLab 不只是“项目链接列表”，还要能沉淀方法和经验。因此这里新增了一组 AI Cookbook，专门记录我在项目推进中踩过的坑、做过的工程取舍，以及哪些经验可以被别的团队直接复用。
 
 - [Cookbook 索引](./docs/cookbook/README.zh-CN.md)
+- [我如何思考 Codex 工作流自动化](./docs/cookbook/codex-workflow-automation-tradeoffs.zh-CN.md)
 - [Codex Composer 开发经验](./docs/cookbook/codex-composer-workflow.zh-CN.md)
 - [Token Insight 开发经验](./docs/cookbook/token-insight-local-first-analytics.zh-CN.md)
 - [AgentScan 工程思考](./docs/cookbook/agentscan-agent-security-notes.zh-CN.md)
