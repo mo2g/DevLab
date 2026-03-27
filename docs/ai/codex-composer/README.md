@@ -6,6 +6,7 @@
 - Related notes:
   - [Codex Composer development notes](../../cookbook/codex-composer/codex-composer-workflow/README.md)
   - [How I Think About Codex Workflow Automation](../../cookbook/codex-composer/codex-workflow-automation-tradeoffs/README.md)
+  - [Codex Composer lightweight workflow convergence](codex-composer/codex-composer-lightweight-workflow/README.md)
 
 ## My Role
 

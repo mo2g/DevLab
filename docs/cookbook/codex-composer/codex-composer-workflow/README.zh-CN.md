@@ -45,3 +45,9 @@ Codex Composer 想解决的核心问题，不是“怎么写一个更聪明的 p
 - 增加更强的示例仓库和迁移说明，降低第一次理解成本。
 - 细化文档，把“为什么这样设计”表达得比“有哪些文件”更清楚。
 - 逐步沉淀更多能跨仓库复用的经验，而不是急于扩成大而全框架。
+
+
+## 阅读建议
+
+- 如果你关心自动化程度、thread-first 和成本取舍，先看 [我如何思考 Codex 工作流自动化](../codex-workflow-automation-tradeoffs/README.zh-CN.md)
+- 如果你关心意图澄清、轻量默认路径和可选 config 收缩，先看 [Codex Composer 轻量标准工作流收敛](../codex-composer-lightweight-workflow/README.zh-CN.md)

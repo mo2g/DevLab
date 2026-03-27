@@ -6,14 +6,12 @@
 
 ## 目录
 
-- [我如何思考 Codex 工作流自动化](codex-composer/codex-workflow-automation-tradeoffs/README.zh-CN.md)
 - [Codex Composer 开发经验](codex-composer/codex-composer-workflow/README.zh-CN.md)
 - [Token Insight 开发经验](./token-insight-local-first-analytics/README.zh-CN.md)
 - [AgentScan 工程思考](./agentscan-agent-security-notes/README.zh-CN.md)
 
 ## 阅读建议
 
-- 如果你关心自动化程度、thread-first 和成本取舍，先看 [我如何思考 Codex 工作流自动化](codex-composer/codex-workflow-automation-tradeoffs/README.zh-CN.md)
 - 如果你关心 AI coding workflow，先看 [Codex Composer 开发经验](codex-composer/codex-composer-workflow/README.zh-CN.md)
 - 如果你关心本地优先可观测性，先看 [Token Insight 开发经验](./token-insight-local-first-analytics/README.zh-CN.md)
 - 如果你关心 AI Agent 安全治理，先看 [AgentScan 工程思考](./agentscan-agent-security-notes/README.zh-CN.md)

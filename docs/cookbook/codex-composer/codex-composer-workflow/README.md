@@ -45,3 +45,8 @@ The core problem behind Codex Composer is not "how to write a smarter prompt" bu
 - Add stronger example repositories and migration notes to reduce first-use cost.
 - Clarify the reasoning behind the design, not only the file inventory.
 - Keep distilling cross-repository lessons instead of expanding too early into a broad framework.
+
+## Suggested Reading
+
+- Start with [How I Think About Codex Workflow Automation](codex-composer/codex-workflow-automation-tradeoffs/README.md) for automation level, thread-first, and cost tradeoff decisions.
+- Start with [Codex Composer lightweight workflow convergence](codex-composer/codex-composer-lightweight-workflow/README.md) for the intent-first planner and optional config contraction.
