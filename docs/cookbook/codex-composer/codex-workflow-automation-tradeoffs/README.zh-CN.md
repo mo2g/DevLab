@@ -1,6 +1,6 @@
 # 我如何思考 Codex 工作流自动化
 
-[English](./README.md)
+[English](README.md)
 
 关联项目：[mo2g/codex-composer](https://github.com/mo2g/codex-composer)
 

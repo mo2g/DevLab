@@ -1,6 +1,6 @@
 # Codex Composer 开发经验
 
-[English](./README.md)
+[English](README.md)
 
 关联项目：[mo2g/codex-composer](https://github.com/mo2g/codex-composer)
 

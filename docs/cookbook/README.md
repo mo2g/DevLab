@@ -6,15 +6,15 @@ This section records methods, tradeoffs, and engineering lessons from the AI pro
 
 ## Index
 
-- [How I Think About Codex Workflow Automation](./codex-workflow-automation-tradeoffs/README.md)
-- [Codex Composer development notes](./codex-composer-workflow/README.md)
+- [How I Think About Codex Workflow Automation](codex-composer/codex-workflow-automation-tradeoffs/README.md)
+- [Codex Composer development notes](codex-composer/codex-composer-workflow/README.md)
 - [Token Insight local-first analytics notes](./token-insight-local-first-analytics/README.md)
 - [AgentScan engineering notes](./agentscan-agent-security-notes/README.md)
 
 ## Suggested Reading
 
-- Start with [How I Think About Codex Workflow Automation](./codex-workflow-automation-tradeoffs/README.md) for automation level, thread-first, and cost tradeoff decisions.
-- Start with [Codex Composer development notes](./codex-composer-workflow/README.md) for AI coding workflow design.
+- Start with [How I Think About Codex Workflow Automation](codex-composer/codex-workflow-automation-tradeoffs/README.md) for automation level, thread-first, and cost tradeoff decisions.
+- Start with [Codex Composer development notes](codex-composer/codex-composer-workflow/README.md) for AI coding workflow design.
 - Start with [Token Insight local-first analytics notes](./token-insight-local-first-analytics/README.md) for local-first observability design.
 - Start with [AgentScan engineering notes](./agentscan-agent-security-notes/README.md) for AI agent security operations.
 

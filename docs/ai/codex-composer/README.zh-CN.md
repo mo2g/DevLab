@@ -4,8 +4,8 @@
 
 - Repository: [mo2g/codex-composer](https://github.com/mo2g/codex-composer)
 - 相关笔记：
-  - [Codex Composer 开发经验](../cookbook/codex-composer-workflow/README.zh-CN.md)
-  - [我如何思考 Codex 工作流自动化](../cookbook/codex-workflow-automation-tradeoffs/README.zh-CN.md)
+  - [Codex Composer 开发经验](../../cookbook/codex-composer/codex-composer-workflow/README.zh-CN.md)
+  - [我如何思考 Codex 工作流自动化](../../cookbook/codex-composer/codex-workflow-automation-tradeoffs/README.zh-CN.md)
 
 ## 我的角色
 

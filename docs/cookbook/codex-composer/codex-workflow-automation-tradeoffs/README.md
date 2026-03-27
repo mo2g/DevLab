@@ -1,6 +1,6 @@
 # How I Think About Codex Workflow Automation
 
-[中文](./README.zh-CN.md)
+[中文](README.zh-CN.md)
 
 Related project: [mo2g/codex-composer](https://github.com/mo2g/codex-composer)
 
