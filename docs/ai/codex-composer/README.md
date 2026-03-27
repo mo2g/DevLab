@@ -4,8 +4,8 @@
 
 - Repository: [mo2g/codex-composer](https://github.com/mo2g/codex-composer)
 - Related notes:
-  - [Codex Composer development notes](../cookbook/codex-composer-workflow/README.md)
-  - [How I Think About Codex Workflow Automation](../cookbook/codex-workflow-automation-tradeoffs/README.md)
+  - [Codex Composer development notes](../../cookbook/codex-composer/codex-composer-workflow/README.md)
+  - [How I Think About Codex Workflow Automation](../../cookbook/codex-composer/codex-workflow-automation-tradeoffs/README.md)
 
 ## My Role
 
