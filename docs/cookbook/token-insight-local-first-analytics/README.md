@@ -1,6 +1,6 @@
 # Token Insight Local-First Analytics Notes
 
-[中文](./token-insight-local-first-analytics.zh-CN.md)
+[中文](./README.zh-CN.md)
 
 Related project: [mo2g/token-insight](https://github.com/mo2g/token-insight)
 

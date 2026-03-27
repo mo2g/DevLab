@@ -1,9 +1,9 @@
 # Token Insight
 
-[English](./token-insight.md)
+[English](./README.md)
 
 - Repository: [mo2g/token-insight](https://github.com/mo2g/token-insight)
-- 相关笔记：[Token Insight 开发经验](../cookbook/token-insight-local-first-analytics.zh-CN.md)
+- 相关笔记：[Token Insight 开发经验](../cookbook/token-insight-local-first-analytics/README.zh-CN.md)
 
 ## 我的角色
 

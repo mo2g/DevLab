@@ -2,7 +2,7 @@
 
 [English](./README.md)
 
-`docs/` 目录默认使用英文文件名，中文版本与英文文件并列放置，并使用 `.zh-CN.md` 后缀。
+`docs/` 目录默认使用英文文件名；每个课题都有自己的目录，目录内放置英文 `README.md` 和中文 `README.zh-CN.md`。
 
 ## 目录
 

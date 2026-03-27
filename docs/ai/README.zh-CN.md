@@ -8,15 +8,15 @@
 
 | 项目 | 角色 | 解决的问题 | 技术栈 | 阶段 |
 | --- | --- | --- | --- | --- |
-| [Token Insight](./token-insight.zh-CN.md) / [Repo](https://github.com/mo2g/token-insight) | 发起者 / 维护者 | 在不默认上传本地数据到 SaaS 的前提下，让 AI coding token usage 可观测 | Rust, React, SQLite | Active build |
-| [Codex Composer](./codex-composer.zh-CN.md) / [Repo](https://github.com/mo2g/codex-composer) | 发起者 / 维护者 | 把零散的 Codex 使用方式沉淀成带契约和校验的仓库工作流 | JavaScript, Shell, Markdown | Active iteration |
-| [AgentScan](./agentscan.zh-CN.md) / [Repo](https://github.com/AutoScan/agentscan) | 参与者 / 维护协作者 | 发现、识别并评估真实网络中的暴露 AI Agent 实例 | Go, React, SQLite | Active security tooling |
+| [Token Insight](./token-insight/README.zh-CN.md) / [Repo](https://github.com/mo2g/token-insight) | 发起者 / 维护者 | 在不默认上传本地数据到 SaaS 的前提下，让 AI coding token usage 可观测 | Rust, React, SQLite | Active build |
+| [Codex Composer](./codex-composer/README.zh-CN.md) / [Repo](https://github.com/mo2g/codex-composer) | 发起者 / 维护者 | 把零散的 Codex 使用方式沉淀成带契约和校验的仓库工作流 | JavaScript, Shell, Markdown | Active iteration |
+| [AgentScan](./agentscan/README.zh-CN.md) / [Repo](https://github.com/AutoScan/agentscan) | 参与者 / 维护协作者 | 发现、识别并评估真实网络中的暴露 AI Agent 实例 | Go, React, SQLite | Active security tooling |
 
 ## 项目页
 
-- [Token Insight](./token-insight.zh-CN.md)：面向 AI coding tools 的本地优先 token 可观测性。
-- [Codex Composer](./codex-composer.zh-CN.md)：面向仓库的可复制 Codex workflow bootstrap。
-- [AgentScan](./agentscan.zh-CN.md)：AI Agent 暴露面发现与安全审计平台。
+- [Token Insight](./token-insight/README.zh-CN.md)：面向 AI coding tools 的本地优先 token 可观测性。
+- [Codex Composer](./codex-composer/README.zh-CN.md)：面向仓库的可复制 Codex workflow bootstrap。
+- [AgentScan](./agentscan/README.zh-CN.md)：AI Agent 暴露面发现与安全审计平台。
 
 ## Related AI Work
 

@@ -2,7 +2,7 @@
 
 [中文](./README.zh-CN.md)
 
-English is the default language in `docs/`. Chinese translations live next to the English files with the `.zh-CN.md` suffix.
+English is the default language in `docs/`. Each topic lives in its own directory with paired `README.md` and `README.zh-CN.md` files.
 
 ## Sections
 

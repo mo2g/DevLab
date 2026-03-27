@@ -1,9 +1,9 @@
 # AgentScan
 
-[中文](./agentscan.zh-CN.md)
+[中文](./README.zh-CN.md)
 
 - Repository: [AutoScan/agentscan](https://github.com/AutoScan/agentscan)
-- Related notes: [AgentScan engineering notes](../cookbook/agentscan-agent-security-notes.md)
+- Related notes: [AgentScan engineering notes](../cookbook/agentscan-agent-security-notes/README.md)
 
 ## My Role
 

@@ -1,6 +1,6 @@
 # Token Insight 开发经验
 
-[English](./token-insight-local-first-analytics.md)
+[English](./README.md)
 
 关联项目：[mo2g/token-insight](https://github.com/mo2g/token-insight)
 

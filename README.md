@@ -21,9 +21,9 @@ I use this repository as a documentation-first front page for current AI project
 
 | Project | Role | Domain | Stack | Status |
 | --- | --- | --- | --- | --- |
-| [Token Insight](./docs/ai/token-insight.md) / [Repo](https://github.com/mo2g/token-insight) | Builder / Maintainer | Local-first token observability for AI coding tools | Rust, React, SQLite | Active build |
-| [Codex Composer](./docs/ai/codex-composer.md) / [Repo](https://github.com/mo2g/codex-composer) | Builder / Maintainer | Reproducible Codex workflow bootstrap for repositories | JavaScript, Shell, Markdown | Active iteration |
-| [AgentScan](./docs/ai/agentscan.md) / [Repo](https://github.com/AutoScan/agentscan) | Contributor / Maintainer | Exposed AI agent discovery and security audit | Go, React, SQLite | Active security tooling |
+| [Token Insight](./docs/ai/token-insight/README.md) / [Repo](https://github.com/mo2g/token-insight) | Builder / Maintainer | Local-first token observability for AI coding tools | Rust, React, SQLite | Active build |
+| [Codex Composer](./docs/ai/codex-composer/README.md) / [Repo](https://github.com/mo2g/codex-composer) | Builder / Maintainer | Reproducible Codex workflow bootstrap for repositories | JavaScript, Shell, Markdown | Active iteration |
+| [AgentScan](./docs/ai/agentscan/README.md) / [Repo](https://github.com/AutoScan/agentscan) | Contributor / Maintainer | Exposed AI agent discovery and security audit | Go, React, SQLite | Active security tooling |
 
 ## Related AI Work
 
@@ -33,10 +33,10 @@ I use this repository as a documentation-first front page for current AI project
 ## Cookbook
 
 - [Cookbook Index](./docs/cookbook/README.md)
-- [How I Think About Codex Workflow Automation](./docs/cookbook/codex-workflow-automation-tradeoffs.md)
-- [Codex Composer development notes](./docs/cookbook/codex-composer-workflow.md)
-- [Token Insight local-first analytics notes](./docs/cookbook/token-insight-local-first-analytics.md)
-- [AgentScan engineering notes](./docs/cookbook/agentscan-agent-security-notes.md)
+- [How I Think About Codex Workflow Automation](./docs/cookbook/codex-workflow-automation-tradeoffs/README.md)
+- [Codex Composer development notes](./docs/cookbook/codex-composer-workflow/README.md)
+- [Token Insight local-first analytics notes](./docs/cookbook/token-insight-local-first-analytics/README.md)
+- [AgentScan engineering notes](./docs/cookbook/agentscan-agent-security-notes/README.md)
 
 ## Legacy Lab
 

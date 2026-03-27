@@ -1,11 +1,11 @@
 # Codex Composer
 
-[中文](./codex-composer.zh-CN.md)
+[中文](./README.zh-CN.md)
 
 - Repository: [mo2g/codex-composer](https://github.com/mo2g/codex-composer)
 - Related notes:
-  - [Codex Composer development notes](../cookbook/codex-composer-workflow.md)
-  - [How I Think About Codex Workflow Automation](../cookbook/codex-workflow-automation-tradeoffs.md)
+  - [Codex Composer development notes](../cookbook/codex-composer-workflow/README.md)
+  - [How I Think About Codex Workflow Automation](../cookbook/codex-workflow-automation-tradeoffs/README.md)
 
 ## My Role
 

@@ -11,9 +11,9 @@ DevLab 是我对外展示 AI 开源工作的入口仓库，围绕三条主线组
 - [文档总览](./docs/README.zh-CN.md)
 - [AI 项目索引](./docs/ai/README.zh-CN.md)
 - [AI Cookbook](./docs/cookbook/README.zh-CN.md)
-- [Token Insight 项目页](./docs/ai/token-insight.zh-CN.md)
-- [Codex Composer 项目页](./docs/ai/codex-composer.zh-CN.md)
-- [AgentScan 项目页](./docs/ai/agentscan.zh-CN.md)
+- [Token Insight 项目页](./docs/ai/token-insight/README.zh-CN.md)
+- [Codex Composer 项目页](./docs/ai/codex-composer/README.zh-CN.md)
+- [AgentScan 项目页](./docs/ai/agentscan/README.zh-CN.md)
 
 ## About
 
@@ -38,8 +38,8 @@ DevLab 是我对外展示 AI 开源工作的入口仓库，围绕三条主线组
 
 查看详情：
 
-- [项目主页](./docs/ai/token-insight.zh-CN.md)
-- [英文文档](./docs/ai/token-insight.md)
+- [项目主页](./docs/ai/token-insight/README.zh-CN.md)
+- [英文文档](./docs/ai/token-insight/README.md)
 - [GitHub 仓库](https://github.com/mo2g/token-insight)
 
 ### Codex Composer
@@ -53,8 +53,8 @@ DevLab 是我对外展示 AI 开源工作的入口仓库，围绕三条主线组
 
 查看详情：
 
-- [项目主页](./docs/ai/codex-composer.zh-CN.md)
-- [英文文档](./docs/ai/codex-composer.md)
+- [项目主页](./docs/ai/codex-composer/README.zh-CN.md)
+- [英文文档](./docs/ai/codex-composer/README.md)
 - [GitHub 仓库](https://github.com/mo2g/codex-composer)
 
 ### AgentScan
@@ -68,8 +68,8 @@ DevLab 是我对外展示 AI 开源工作的入口仓库，围绕三条主线组
 
 查看详情：
 
-- [项目主页](./docs/ai/agentscan.zh-CN.md)
-- [英文文档](./docs/ai/agentscan.md)
+- [项目主页](./docs/ai/agentscan/README.zh-CN.md)
+- [英文文档](./docs/ai/agentscan/README.md)
 - [GitHub 仓库](https://github.com/AutoScan/agentscan)
 
 ## Related AI Work
@@ -84,10 +84,10 @@ DevLab 是我对外展示 AI 开源工作的入口仓库，围绕三条主线组
 我希望 DevLab 不只是“项目链接列表”，还要能沉淀方法和经验。因此这里新增了一组 AI Cookbook，专门记录我在项目推进中踩过的坑、做过的工程取舍，以及哪些经验可以被别的团队直接复用。
 
 - [Cookbook 索引](./docs/cookbook/README.zh-CN.md)
-- [我如何思考 Codex 工作流自动化](./docs/cookbook/codex-workflow-automation-tradeoffs.zh-CN.md)
-- [Codex Composer 开发经验](./docs/cookbook/codex-composer-workflow.zh-CN.md)
-- [Token Insight 开发经验](./docs/cookbook/token-insight-local-first-analytics.zh-CN.md)
-- [AgentScan 工程思考](./docs/cookbook/agentscan-agent-security-notes.zh-CN.md)
+- [我如何思考 Codex 工作流自动化](./docs/cookbook/codex-workflow-automation-tradeoffs/README.zh-CN.md)
+- [Codex Composer 开发经验](./docs/cookbook/codex-composer-workflow/README.zh-CN.md)
+- [Token Insight 开发经验](./docs/cookbook/token-insight-local-first-analytics/README.zh-CN.md)
+- [AgentScan 工程思考](./docs/cookbook/agentscan-agent-security-notes/README.zh-CN.md)
 
 ## Legacy Lab
 

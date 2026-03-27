@@ -1,6 +1,6 @@
 # Codex Composer Development Notes
 
-[中文](./codex-composer-workflow.zh-CN.md)
+[中文](./README.zh-CN.md)
 
 Related project: [mo2g/codex-composer](https://github.com/mo2g/codex-composer)
 

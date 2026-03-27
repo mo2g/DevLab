@@ -1,6 +1,6 @@
 # AgentScan Engineering Notes
 
-[中文](./agentscan-agent-security-notes.zh-CN.md)
+[中文](./README.zh-CN.md)
 
 Related project: [AutoScan/agentscan](https://github.com/AutoScan/agentscan)
 

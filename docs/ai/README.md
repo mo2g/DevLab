@@ -2,21 +2,21 @@
 
 [中文](./README.zh-CN.md)
 
-This section separates primary projects I build or actively maintain from related fork-based or participation-oriented work.
+This section separates primary projects I build or actively maintain from related fork-based or participation-oriented work. Each topic lives in its own directory with paired English and Chinese READMEs.
 
 ## Featured Projects
 
 | Project | Role | Problem | Stack | Stage |
 | --- | --- | --- | --- | --- |
-| [Token Insight](./token-insight.md) / [Repo](https://github.com/mo2g/token-insight) | Builder / Maintainer | Make AI coding token usage inspectable without pushing local data to SaaS first | Rust, React, SQLite | Active build |
-| [Codex Composer](./codex-composer.md) / [Repo](https://github.com/mo2g/codex-composer) | Builder / Maintainer | Turn ad hoc Codex usage into a repository workflow with explicit contracts and checks | JavaScript, Shell, Markdown | Active iteration |
-| [AgentScan](./agentscan.md) / [Repo](https://github.com/AutoScan/agentscan) | Contributor / Maintainer | Discover, fingerprint, and assess exposed AI agent instances across real networks | Go, React, SQLite | Active security tooling |
+| [Token Insight](./token-insight/README.md) / [Repo](https://github.com/mo2g/token-insight) | Builder / Maintainer | Make AI coding token usage inspectable without pushing local data to SaaS first | Rust, React, SQLite | Active build |
+| [Codex Composer](./codex-composer/README.md) / [Repo](https://github.com/mo2g/codex-composer) | Builder / Maintainer | Turn ad hoc Codex usage into a repository workflow with explicit contracts and checks | JavaScript, Shell, Markdown | Active iteration |
+| [AgentScan](./agentscan/README.md) / [Repo](https://github.com/AutoScan/agentscan) | Contributor / Maintainer | Discover, fingerprint, and assess exposed AI agent instances across real networks | Go, React, SQLite | Active security tooling |
 
 ## Project Profiles
 
-- [Token Insight](./token-insight.md): local-first token observability for AI coding tools.
-- [Codex Composer](./codex-composer.md): repository bootstrap for repeatable Codex workflows.
-- [AgentScan](./agentscan.md): AI agent exposure discovery and security audit platform.
+- [Token Insight](./token-insight/README.md): local-first token observability for AI coding tools.
+- [Codex Composer](./codex-composer/README.md): repository bootstrap for repeatable Codex workflows.
+- [AgentScan](./agentscan/README.md): AI agent exposure discovery and security audit platform.
 
 ## Related AI Work
 
