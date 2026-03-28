@@ -4,7 +4,7 @@
 
 ![DevLab AI Lab overview](./docs/assets/hero-ai-lab.svg)
 
-DevLab is the public entry point for AI work I build, maintain, or actively contribute to around three themes: AI coding workflow, token analytics, and agent security.
+DevLab is the public entry point for AI work I build, maintain, or actively contribute to around four themes: AI coding workflow, token analytics, agent security, and ChatGPT workflow performance.
 
 ## Start Here
 
@@ -23,7 +23,23 @@ I use this repository as a documentation-first front page for current AI project
 | --- | --- | --- | --- | --- |
 | [Token Insight](./docs/ai/token-insight/README.md) / [Repo](https://github.com/mo2g/token-insight) | Builder / Maintainer | Local-first token observability for AI coding tools | Rust, React, SQLite | Active build |
 | [Codex Composer](./docs/ai/codex-composer/README.md) / [Repo](https://github.com/mo2g/codex-composer) | Builder / Maintainer | Reproducible Codex workflow bootstrap for repositories | JavaScript, Shell, Markdown | Active iteration |
+| [ChatGPT TurboRender](./docs/ai/chatgpt-turborender/README.md) / [Repo](https://github.com/mo2g/ChatGPT-TurboRender) | Builder / Maintainer | Keep long ChatGPT conversations responsive without replacing the native UI | TypeScript, WXT, Manifest V3, Playwright, Vitest | Active build |
 | [AgentScan](./docs/ai/agentscan/README.md) / [Repo](https://github.com/AutoScan/agentscan) | Contributor / Maintainer | Exposed AI agent discovery and security audit | Go, React, SQLite | Active security tooling |
+
+### ChatGPT TurboRender
+
+- Role: Builder / Maintainer
+- Domain: Browser-side ChatGPT long-thread responsiveness
+- Stack: TypeScript, WXT, Manifest V3, Playwright, Vitest
+- Status: Active build
+
+This project keeps long ChatGPT sessions responsive by reducing browser render pressure instead of replacing the native UI. It trims cold history before first render, preserves a hot interaction window, and restores old turns on demand so long conversations stay usable.
+
+View details:
+
+- [Project page](./docs/ai/chatgpt-turborender/README.md)
+- [Chinese documentation](./docs/ai/chatgpt-turborender/README.zh-CN.md)
+- [GitHub repository](https://github.com/mo2g/ChatGPT-TurboRender)
 
 ## Related AI Work
 
@@ -33,8 +49,8 @@ I use this repository as a documentation-first front page for current AI project
 ## Cookbook
 
 - [Cookbook Index](./docs/cookbook/README.md)
-- [How I Think About Codex Workflow Automation](docs/cookbook/codex-composer/codex-workflow-automation-tradeoffs/README.md)
-- [Codex Composer development notes](docs/cookbook/codex-composer/codex-composer-workflow/README.md)
+- [How I Think About Codex Workflow Automation](./docs/cookbook/codex-workflow-automation-tradeoffs/README.md)
+- [Codex Composer development notes](./docs/cookbook/codex-composer-workflow/README.md)
 - [Token Insight local-first analytics notes](./docs/cookbook/token-insight-local-first-analytics/README.md)
 - [AgentScan engineering notes](./docs/cookbook/agentscan-agent-security-notes/README.md)
 

@@ -10,12 +10,14 @@ This section separates primary projects I build or actively maintain from relate
 | --- | --- | --- | --- | --- |
 | [Token Insight](./token-insight/README.md) / [Repo](https://github.com/mo2g/token-insight) | Builder / Maintainer | Make AI coding token usage inspectable without pushing local data to SaaS first | Rust, React, SQLite | Active build |
 | [Codex Composer](./codex-composer/README.md) / [Repo](https://github.com/mo2g/codex-composer) | Builder / Maintainer | Turn ad hoc Codex usage into a repository workflow with explicit contracts and checks | JavaScript, Shell, Markdown | Active iteration |
+| [ChatGPT TurboRender](./chatgpt-turborender/README.md) / [Repo](https://github.com/mo2g/ChatGPT-TurboRender) | Builder / Maintainer | Keep long ChatGPT conversations responsive without replacing the native UI | TypeScript, WXT, Manifest V3, Playwright, Vitest | Active build |
 | [AgentScan](./agentscan/README.md) / [Repo](https://github.com/AutoScan/agentscan) | Contributor / Maintainer | Discover, fingerprint, and assess exposed AI agent instances across real networks | Go, React, SQLite | Active security tooling |
 
 ## Project Profiles
 
 - [Token Insight](./token-insight/README.md): local-first token observability for AI coding tools.
 - [Codex Composer](./codex-composer/README.md): repository bootstrap for repeatable Codex workflows.
+- [ChatGPT TurboRender](./chatgpt-turborender/README.md): browser-side long-thread responsiveness for ChatGPT.
 - [AgentScan](./agentscan/README.md): AI agent exposure discovery and security audit platform.
 
 ## Related AI Work
