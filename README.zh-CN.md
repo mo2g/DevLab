@@ -2,7 +2,7 @@
 
 [English Overview](./README.md)
 
-![DevLab AI Lab overview](./docs/assets/hero-ai-lab.svg)
+![DevLab AI Lab overview](./docs/assets/devlab-preview.jpg)
 
 DevLab 是我对外展示 AI 开源工作的入口仓库，围绕四条主线组织内容：`AI coding workflow`、`token analytics`、`agent security`、`ChatGPT workflow performance`。
 

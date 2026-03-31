@@ -2,7 +2,7 @@
 
 [中文主页](./README.zh-CN.md)
 
-![DevLab AI Lab overview](./docs/assets/hero-ai-lab.svg)
+![DevLab AI Lab overview](./docs/assets/devlab-preview.jpg)
 
 DevLab is the public entry point for AI work I build, maintain, or actively contribute to around four themes: AI coding workflow, token analytics, agent security, and ChatGPT workflow performance.
 
