@@ -9,12 +9,14 @@ This section records methods, tradeoffs, and engineering lessons from the AI pro
 - [Codex Composer development notes](codex-composer/codex-composer-workflow/README.md)
 - [Token Insight local-first analytics notes](./token-insight-local-first-analytics/README.md)
 - [AgentScan engineering notes](./agentscan-agent-security-notes/README.md)
+- [Planner / Implementer Cookbook (cost control)](codex-composer/planner-implementer-cost-control/README.md)
 
 ## Suggested Reading
 
 - Start with [Codex Composer development notes](codex-composer/codex-composer-workflow/README.md) for AI coding workflow design.
 - Start with [Token Insight local-first analytics notes](./token-insight-local-first-analytics/README.md) for local-first observability design.
 - Start with [AgentScan engineering notes](./agentscan-agent-security-notes/README.md) for AI agent security operations.
+- Start with [Planner / Implementer Cookbook (cost control)](codex-composer/planner-implementer/README.md) for planner / implementer model split and fan-out policy.
 
 ## Related Entry Points
 

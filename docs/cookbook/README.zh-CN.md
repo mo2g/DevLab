@@ -9,12 +9,14 @@
 - [Codex Composer 开发经验](codex-composer/codex-composer-workflow/README.zh-CN.md)
 - [Token Insight 开发经验](./token-insight-local-first-analytics/README.zh-CN.md)
 - [AgentScan 工程思考](./agentscan-agent-security-notes/README.zh-CN.md)
+- [Planner / Implementer Cookbook（成本控制版）](codex-composer/planner-implementer-cost-control/README.zh-CN.md)
 
 ## 阅读建议
 
 - 如果你关心 AI coding workflow，先看 [Codex Composer 开发经验](codex-composer/codex-composer-workflow/README.zh-CN.md)
 - 如果你关心本地优先可观测性，先看 [Token Insight 开发经验](./token-insight-local-first-analytics/README.zh-CN.md)
 - 如果你关心 AI Agent 安全治理，先看 [AgentScan 工程思考](./agentscan-agent-security-notes/README.zh-CN.md)
+- 如果你关心 planner / implementer 分工和 fan-out 策略，先看 [Planner / Implementer Cookbook（成本控制版）](codex-composer/planner-implementer/README.zh-CN.md)
 
 ## 相关入口
 
